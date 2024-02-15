@@ -1,0 +1,22 @@
+class program {
+ void Karel (n)
+ {
+   iterate(succ(succ(n)))
+   {
+     move();
+   }
+ }
+ void zumb (n)
+ {
+   iterate(pred(pred(n)))
+   {
+     putbeeper();
+   }
+  
+ }
+    program () {
+          Karel(3);
+          zumb(6);
+        turnoff();
+    }
+}
