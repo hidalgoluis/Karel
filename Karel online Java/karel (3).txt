@@ -1,0 +1,12 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+       {
+    while (notFacingNorth()) {
+        turnleft();
+    }
+
+        }
+        turnoff();
+    }
+}
